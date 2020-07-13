@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useState, useContext} from "react";
 import {Search} from "../Search";
 import {Card} from '../Card'
 import {GitHubContext} from "../Context/GitHub/gitHubContent";
@@ -7,6 +7,7 @@ import {GitHubContext} from "../Context/GitHub/gitHubContent";
 export default function Home() {
 
     const {loading, users} = useContext(GitHubContext)
+    const [isDarkMode, setIsDarkMode] = useState(() => false);
 
     return (
         <>

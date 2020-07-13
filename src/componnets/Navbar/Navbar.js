@@ -18,8 +18,6 @@ const Navbar = props => {
                     <NavLink to={"/contact"} className='nav-link' >  Contact</NavLink>
                 </li>
             </ul>
-
-
         </nav>
 
     )

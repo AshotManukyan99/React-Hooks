@@ -7,8 +7,11 @@ import Navbar from "./componnets/Navbar/Navbar";
 import {Alert} from "./componnets/Alert";
 import {AlertState} from "./componnets/Context/Alert/AlertState";
 import {GitHubState} from "./componnets/Context/GitHub/gitHubState";
+import {useTranslation} from 'react-i18next';
+
 
 function App() {
+
 
     return (
         <GitHubState>
