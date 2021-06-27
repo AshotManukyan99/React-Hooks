@@ -27,9 +27,9 @@ export default function About() {
                     <p className="lead"> Version app <strong> 1.0.0 </strong></p>
                 </div>
             </div>
-            <div className='m-5 border-secondary '>
-                <Count/>
-            </div>
+            {/*<div className='m-5 border-secondary '>*/}
+            {/*    <Count/>*/}
+            {/*</div>*/}
 
         </>
     )
